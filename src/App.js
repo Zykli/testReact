@@ -100,7 +100,8 @@ class App extends Component {
             }
           ]
         },
-      ]
+      ],
+      activeIndex: 0
     };
 
     this.onClick = this.onClick.bind(this);
@@ -113,7 +114,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      
+
       </div>
     );
   }
